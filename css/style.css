@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-color{
+    color: #FD5B2F;
+}
+
+.nav-link, .nav-link:hover{
+    color: #7A7878;
+    font-weight: 600;
+}
+
+.header-main-img{
+    width: 60%;
+}
+.header-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.header-schedule{
+    background-color: #ebebebee;
+    width: 55%;
+    position: absolute;
+    top: 60%;
+    z-index: 1111;
+}
+
+.people{
+    position: absolute;
+    top: 85%;
+}
+
+h5{
+    color: #FD5B2F;
+    font-weight: 700;
+}
+
+h2{
+    font-size:40px;
+    line-height: 1.2;
+}
+
+
+
+.tour-btn, .tour-btn:hover{
+    color: #FD5B2F;
+    padding: 16px 15px;
+}
+i{
+    color: #FD5B2F;
+}
+
+.vision{
+    background-image: url('../images/Vector 36.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 80%;
+
+}
+
+.trans-btn, .trans-btn:hover{
+    background-color: transparent;
+    color: #FD5B2F;
+}
+
+.news button:focus{
+    box-shadow: none;
+}
+.news .read-more-btn:hover{
+    color: #FD5B2F;
+}
+
+.orange-btn, .orange-btn:hover{
+    background-color: #FD5B2F;
+    color: white;
+    padding: 16px 15px;
+}
+
+.contact p, .contact img{
+    cursor: pointer;
+}
+
+.contact{
+    background: rgb(255,255,255);
+    background: linear-gradient(900deg, rgba(255,255,255,1) 0%, rgba(251, 193, 180, 0.342) 100%, #fbe4e4 100%);
+}
+
+.news-bg{
+    background: #FFFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 55%, rgba(164,228,248,0.6786064767703957) 100%);
+    
+}
+
+.ellipce1{
+    right: -10%;
+    top: -28%;
+}
+
+    
+.ellipce2 {
+    right: -21%;
+    top: 1%;
+}
+
+
+.ellipce3{
+    right: -27%;
+    top: -11%;
+}
+
+
+.vertical-lr{
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    right: 14%;
+    top: 69%;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 767px) { 
+    
+    .vertical-lr{
+
+        right: 12%;
+        top: 68%;
+    }
+
+    
+    .ellipce1{
+        right: -16%;
+        top: -29%;
+    }
+
+        
+    .ellipce2 {
+        right: -21%;
+        top: 3%;
+    }
+
+
+    .ellipce3{
+        right: -35%;
+        top: -11%;
+    }
+
+    .header-schedule, .people{
+        position: static !important;
+        width: 100%;
+    }
+}
